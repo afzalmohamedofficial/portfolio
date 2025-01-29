@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio - WhyDotPy</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Data Science Portfolio</h1>
+            <p>Hi, I'm a Data Scientist transitioning from a visual effects artist to an IT career. I specialize in machine learning, data analysis, and visualization.</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <p>I'm passionate about Python programming and machine learning. I enjoy creating end-to-end projects, including building models, analyzing data, and deploying solutions.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src="images/project1.png" alt="Project 1 Image">
+                <h3>Australian Vehicle Price Prediction</h3>
+                <p>Built a regression model to predict vehicle prices in Australia. Features include vehicle attributes and deployment as a Streamlit app.</p>
+                <a href="https://huggingface.co/afzalmohamedofficial/Australian_vehicle_price_prediction" target="_blank">View Model</a>
+                <a href="projects/project1/index.html" target="_blank">Learn More</a>
+            </div>
+            <div class="project">
+                <img src="images/project2.png" alt="Project 2 Image">
+                <h3>Predicting Disease Progression</h3>
+                <p>Analyzed clinical data to predict disease severity using machine learning models.</p>
+                <a href="#" target="_blank">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WhyDotPy | <a href="https://linkedin.com/in/whydotpy">LinkedIn</a> | <a href="https://instagram.com/whydotpy">Instagram</a></p>
+        </div>
+    </footer>
+</body>
+</html>
