@@ -3,48 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Portfolio - WhyDotPy</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>My Data Science Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Welcome to My Data Science Portfolio</h1>
-            <p>Hi, I'm a Data Scientist transitioning from a visual effects artist to an IT career. I specialize in machine learning, data analysis, and visualization.</p>
+            <p>Discover my journey, projects, and skills in data science and machine learning.</p>
+            <a href="#projects">Explore My Work</a>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
-            <p>I'm passionate about Python programming and machine learning. I enjoy creating end-to-end projects, including building models, analyzing data, and deploying solutions.</p>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <p>Hello! I’m a data scientist transitioning from a visual effects background. I create projects that combine machine learning, data visualization, and storytelling to solve problems.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-icons">
+                <i class="fab fa-python"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-git"></i>
+            </div>
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
             <div class="project">
-                <img src="images/project1.png" alt="Project 1 Image">
-                <h3>Australian Vehicle Price Prediction</h3>
-                <p>Built a regression model to predict vehicle prices in Australia. Features include vehicle attributes and deployment as a Streamlit app.</p>
-                <a href="https://huggingface.co/afzalmohamedofficial/Australian_vehicle_price_prediction" target="_blank">View Model</a>
-                <a href="projects/project1/index.html" target="_blank">Learn More</a>
+                <img src="project1.jpg" alt="Project 1">
+                <h3>House Price Prediction</h3>
+                <p>A machine learning model that predicts house prices based on multiple features.</p>
             </div>
             <div class="project">
-                <img src="images/project2.png" alt="Project 2 Image">
-                <h3>Predicting Disease Progression</h3>
-                <p>Analyzed clinical data to predict disease severity using machine learning models.</p>
-                <a href="#" target="_blank">View Details</a>
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Australian Vehicle Price Prediction</h3>
+                <p>End-to-end ML pipeline predicting vehicle prices with real-time Streamlit deployment.</p>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 WhyDotPy | <a href="https://linkedin.com/in/whydotpy">LinkedIn</a> | <a href="https://instagram.com/whydotpy">Instagram</a></p>
+            <p>&copy; 2025 WhyDotPy</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/whydotpy" target="_blank">
+                    <img src="linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://instagram.com/whydotpy" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://github.com/whydotpy" target="_blank">
+                    <img src="github-icon.png" alt="GitHub">
+                </a>
+            </div>
         </div>
     </footer>
+
+    <!-- Add this for Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
