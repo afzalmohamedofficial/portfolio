@@ -111,6 +111,24 @@ header a:hover {
     border-radius: 8px;
 }
 
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #007acc;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back-btn:hover {
+    background: #005a8c;
+    transform: translateY(-2px);
+}
+
+
 /* Footer */
 footer {
     background: #333;
